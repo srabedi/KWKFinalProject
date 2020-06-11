@@ -14,6 +14,14 @@
 		EC2A051A248FFC9900DBB604 /* KWKFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2A0518248FFC9900DBB604 /* KWKFinalProject.xcdatamodeld */; };
 		EC2A051C248FFC9B00DBB604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2A051B248FFC9B00DBB604 /* Assets.xcassets */; };
 		EC2A051F248FFC9B00DBB604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2A051D248FFC9B00DBB604 /* LaunchScreen.storyboard */; };
+		EC2A052B24927F6900DBB604 /* BLMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A052A24927F6900DBB604 /* BLMViewController.swift */; };
+		EC2A052D2492801200DBB604 /* BLMPetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A052C2492801200DBB604 /* BLMPetitionsViewController.swift */; };
+		EC2A052F2492824F00DBB604 /* ClimateChangePetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A052E2492824F00DBB604 /* ClimateChangePetitionsViewController.swift */; };
+		EC2A0531249282F800DBB604 /* Covid19PetitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A0530249282F800DBB604 /* Covid19PetitionsViewController.swift */; };
+		EC2A05332492842400DBB604 /* CensusVotingInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A05322492842400DBB604 /* CensusVotingInformationViewController.swift */; };
+		EC2A053524928FCF00DBB604 /* BLMDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A053424928FCF00DBB604 /* BLMDonationsViewController.swift */; };
+		EC2A05372492970800DBB604 /* ClimateChangeDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A05362492970800DBB604 /* ClimateChangeDonationsViewController.swift */; };
+		EC2A0539249297E300DBB604 /* Covid19DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A0538249297E300DBB604 /* Covid19DonationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		EC2A051B248FFC9B00DBB604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2A051E248FFC9B00DBB604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC2A0520248FFC9B00DBB604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2A052A24927F6900DBB604 /* BLMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMViewController.swift; sourceTree = "<group>"; };
+		EC2A052C2492801200DBB604 /* BLMPetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMPetitionsViewController.swift; sourceTree = "<group>"; };
+		EC2A052E2492824F00DBB604 /* ClimateChangePetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangePetitionsViewController.swift; sourceTree = "<group>"; };
+		EC2A0530249282F800DBB604 /* Covid19PetitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19PetitionsViewController.swift; sourceTree = "<group>"; };
+		EC2A05322492842400DBB604 /* CensusVotingInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CensusVotingInformationViewController.swift; sourceTree = "<group>"; };
+		EC2A053424928FCF00DBB604 /* BLMDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMDonationsViewController.swift; sourceTree = "<group>"; };
+		EC2A05362492970800DBB604 /* ClimateChangeDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeDonationsViewController.swift; sourceTree = "<group>"; };
+		EC2A0538249297E300DBB604 /* Covid19DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19DonationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,14 @@
 				EC2A0511248FFC9900DBB604 /* SceneDelegate.swift */,
 				EC2A0513248FFC9900DBB604 /* ViewController.swift */,
 				EC2A0515248FFC9900DBB604 /* Main.storyboard */,
+				EC2A0538249297E300DBB604 /* Covid19DonationsViewController.swift */,
+				EC2A05362492970800DBB604 /* ClimateChangeDonationsViewController.swift */,
+				EC2A053424928FCF00DBB604 /* BLMDonationsViewController.swift */,
+				EC2A05322492842400DBB604 /* CensusVotingInformationViewController.swift */,
+				EC2A0530249282F800DBB604 /* Covid19PetitionsViewController.swift */,
+				EC2A052E2492824F00DBB604 /* ClimateChangePetitionsViewController.swift */,
+				EC2A052C2492801200DBB604 /* BLMPetitionsViewController.swift */,
+				EC2A052A24927F6900DBB604 /* BLMViewController.swift */,
 				EC2A051B248FFC9B00DBB604 /* Assets.xcassets */,
 				EC2A051D248FFC9B00DBB604 /* LaunchScreen.storyboard */,
 				EC2A0520248FFC9B00DBB604 /* Info.plist */,
@@ -141,10 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2A05332492842400DBB604 /* CensusVotingInformationViewController.swift in Sources */,
+				EC2A052F2492824F00DBB604 /* ClimateChangePetitionsViewController.swift in Sources */,
 				EC2A0514248FFC9900DBB604 /* ViewController.swift in Sources */,
 				EC2A0510248FFC9900DBB604 /* AppDelegate.swift in Sources */,
+				EC2A0539249297E300DBB604 /* Covid19DonationsViewController.swift in Sources */,
+				EC2A053524928FCF00DBB604 /* BLMDonationsViewController.swift in Sources */,
+				EC2A05372492970800DBB604 /* ClimateChangeDonationsViewController.swift in Sources */,
 				EC2A051A248FFC9900DBB604 /* KWKFinalProject.xcdatamodeld in Sources */,
+				EC2A0531249282F800DBB604 /* Covid19PetitionsViewController.swift in Sources */,
 				EC2A0512248FFC9900DBB604 /* SceneDelegate.swift in Sources */,
+				EC2A052D2492801200DBB604 /* BLMPetitionsViewController.swift in Sources */,
+				EC2A052B24927F6900DBB604 /* BLMViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

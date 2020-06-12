@@ -22,6 +22,8 @@
 		EC2A053524928FCF00DBB604 /* BLMDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A053424928FCF00DBB604 /* BLMDonationsViewController.swift */; };
 		EC2A05372492970800DBB604 /* ClimateChangeDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A05362492970800DBB604 /* ClimateChangeDonationsViewController.swift */; };
 		EC2A0539249297E300DBB604 /* Covid19DonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A0538249297E300DBB604 /* Covid19DonationsViewController.swift */; };
+		EC2A053F2493221A00DBB604 /* HistoryOfBLMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A053E2493221A00DBB604 /* HistoryOfBLMViewController.swift */; };
+		EC2A05412493254900DBB604 /* HistoryOfClimateChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A05402493254900DBB604 /* HistoryOfClimateChangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		EC2A053424928FCF00DBB604 /* BLMDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMDonationsViewController.swift; sourceTree = "<group>"; };
 		EC2A05362492970800DBB604 /* ClimateChangeDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateChangeDonationsViewController.swift; sourceTree = "<group>"; };
 		EC2A0538249297E300DBB604 /* Covid19DonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19DonationsViewController.swift; sourceTree = "<group>"; };
+		EC2A053E2493221A00DBB604 /* HistoryOfBLMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryOfBLMViewController.swift; sourceTree = "<group>"; };
+		EC2A05402493254900DBB604 /* HistoryOfClimateChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryOfClimateChangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				EC2A0511248FFC9900DBB604 /* SceneDelegate.swift */,
 				EC2A0513248FFC9900DBB604 /* ViewController.swift */,
 				EC2A0515248FFC9900DBB604 /* Main.storyboard */,
+				EC2A05402493254900DBB604 /* HistoryOfClimateChangeViewController.swift */,
+				EC2A053E2493221A00DBB604 /* HistoryOfBLMViewController.swift */,
 				EC2A0538249297E300DBB604 /* Covid19DonationsViewController.swift */,
 				EC2A05362492970800DBB604 /* ClimateChangeDonationsViewController.swift */,
 				EC2A053424928FCF00DBB604 /* BLMDonationsViewController.swift */,
@@ -169,6 +175,8 @@
 				EC2A052F2492824F00DBB604 /* ClimateChangePetitionsViewController.swift in Sources */,
 				EC2A0514248FFC9900DBB604 /* ViewController.swift in Sources */,
 				EC2A0510248FFC9900DBB604 /* AppDelegate.swift in Sources */,
+				EC2A05412493254900DBB604 /* HistoryOfClimateChangeViewController.swift in Sources */,
+				EC2A053F2493221A00DBB604 /* HistoryOfBLMViewController.swift in Sources */,
 				EC2A0539249297E300DBB604 /* Covid19DonationsViewController.swift in Sources */,
 				EC2A053524928FCF00DBB604 /* BLMDonationsViewController.swift in Sources */,
 				EC2A05372492970800DBB604 /* ClimateChangeDonationsViewController.swift in Sources */,
